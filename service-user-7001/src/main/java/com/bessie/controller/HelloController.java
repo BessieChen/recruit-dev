@@ -22,7 +22,7 @@ public class HelloController {
     {
         com.bessie.pojo.Stu stu = new com.bessie.pojo.Stu();
         stu.setAge(19);
-        stu.setId("1009");
+        stu.setId("1023");
         stu.setName("bessie");
 
         stuService.save(stu);
